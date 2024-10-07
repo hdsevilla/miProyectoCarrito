@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>No conseguiste el producto que buscabas?</h2>
+    <form action="" method="get">
+        <fieldset>
+            <p>Dejanos algunos datos para que podamos comunicarnos contigo y guiarte para conseguir ese producto que buscabas</p>
+            <label for="nombre">Nombre:
+                <input type="text" name="nombre" value="" id="nombre" placeholder="Escribe tu nombre completo" size="30">
+            </label>
+            <label for="email">E-mail:
+                <input type="email" name="email" value="" id="email" placeholder="@storm.com" size="30">
+            </label>
+            <br><br>
+            <label for="codigo">Código:
+                <input type="text" name="codigo" value="" id="codigo" placeholder="Inserte el codigo del producto" size="30">
+            </label>
+            <label for="marca">Marca:
+                <input type="text" name="marca" value="" id="marca" placeholder="Indique que marca es el producto" size="30">
+            </label>
+            <label for="genero">Genero:
+                <select name="genero" id="genero">
+                    <option value="mujer">Mujer</option>
+                    <option value="hombre">Hombre</option>
+                    <option value="niños">Niños</option>
+                </select>
+            </label>
+        </fieldset>
+        <p>Para que podamos ayudarte a encontrar el producto que tanto buscas y deseas, dejanos una breve descripcion para saber con mas detalle que buscas.</p>
+        <label for="descripcion">descripcion
+            <textarea name="descripcion" id="descripcion" rows="5" cols="30"></textarea>
+        </label>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
